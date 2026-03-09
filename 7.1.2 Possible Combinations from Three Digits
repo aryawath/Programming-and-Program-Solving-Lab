@@ -1,0 +1,10 @@
+# Read three digits as strings to preserve leading zeros
+a, b, c = input().split()
+
+# Print all 6 possible arrangements
+print(a + b + c)
+print(a + c + b)
+print(b + a + c)
+print(b + c + a)
+print(c + a + b)
+print(c + b + a)
